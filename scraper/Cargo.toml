@@ -10,6 +10,12 @@ reqwest = { version = "0.11", features = ["blocking", "json"] }
 scraper = "0.13.0"
 json = "0.12.4"
 lazy_static = "1.4.0"
+serde = { version = "1.0.157", features = ["derive"] }
+serde_json = "1.0.94"
+
+[dependencies.proc-macro2]
+version = "1.0.51"
+features = ["default"]
 
 [[bin]]
 name = "scraper"
